@@ -1,5 +1,13 @@
-<div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-    <form method="GET" action="">
+<ul>
+    <li class="list-inline-item">
+        <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="text-center">
+                <div><i class="fas fa-search fa-lg"></i></div>
+                <p class="my-0">Search</p> 
+            </div>
+        </a>
+    <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
+    <form class="form" method="GET" action="">
         <div class="input-group w-100">
             <input class="form-control border rounded-0" type="text" name="q" placeholder="Search for game / accessories">
             <div class="inpur-group-append">
@@ -11,11 +19,10 @@
             </div>
         </div>
     </form>
-</div>
-<div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-    <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+    </div>
+    </li>    
         <li class="list-inline-item dropdown">
-            <a class="nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link text-black d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="text-center">
                     <div><i class="fas fa-user-tie fa-lg"></i></div>
                     <p class="my-0">My Account</p>
@@ -35,7 +42,7 @@
             </div>
         </li>
         <li class="list-inline-item">
-            <a class="{% if sub_total %} text-info font-weight-bold {% else %} text-black {% endif %} nav-link">
+            <a class="{% if sub_total %} text-info font-weight-bold {% else %} text-black {% endif %} nav-link d-block d-lg-none">
                 <div class="text-center">
                     <div><i class="fas fa-briefcase fa-lg"></i></div>
                     <p class="my-0">
