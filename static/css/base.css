@@ -102,6 +102,11 @@ a {
     padding-bottom: 5px; 
 }
 
+a.category-badge > span.badge:hover {
+    background-color: #151719 !important;
+    color: #fff !important
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
