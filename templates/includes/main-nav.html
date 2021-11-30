@@ -5,10 +5,10 @@
                 Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-product-link">
-                <a href="#" class="dropdown-item">Games</a>
-                <a href="#" class="dropdown-item">Figures</a>
-                <a href="#" class="dropdown-item">Posters</a>
-                <a href="{% url 'products' %}" class="dropdown-item">Shop Everything</a>
+                <a href="{% url 'products' %}?category=games" class="dropdown-item">Games</a>
+                <a href="{% url 'products' %}?category=figures" class="dropdown-item">Figures</a>
+                <a href="{% url 'products' %}?category=posters" class="dropdown-item">Posters</a>
+                <a href="{% url 'products' %}?category=games,figures,posters" class="dropdown-item">Shop Everything</a>
             </div>
         </li>
         <li class="nav-item dropdown">
