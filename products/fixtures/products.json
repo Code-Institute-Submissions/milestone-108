@@ -1,0 +1,128 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "Assassin's Creed Valhalla PS5",
+        "description": "Ninth century AD. Driven from Norway by endless wars and dwindling resources, a Viking raider, Eivor, leads a clan of Norsemen across the icy North Sea to the rich lands of England’s broken kingdoms. Their mission: establish a new permanent home, no matter the cost.",
+        "price": 29.99,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "ACV.png"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001600425",
+        "name": "The Last of Us Part II PS4",
+        "description": "Five years after the events of The Last of Us, violence shatters Ellie and Joel’s peaceful community of survivors in Jackson, Wyoming. Ellie’s quest for justice will take her on a new journey through the post-pandemic United States in the Last of Us Part II on PS4. Join her hunt for those responsible in a world populated by desperate groups of survivors and the terrifying infected.",
+        "price": 34.99,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "TLOU.png"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001730010",
+        "name": "Uncharted Collection PS4",
+        "description": "Experience one of the most revered game series of all time as you follow the perilous journey of Nathan Drake across the globe, from humble beginnings to extraordinary discoveries. Meet an unforgettable cast of characters as Drake puts life and friendship on the line in a race against ruthless enemies to uncover unimaginable treasure.",
+        "price": 19.99,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "uncharted.png"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001890157",
+        "name": "POP! Vinyl: Pokémon Bulbasaur",
+        "description": "Catch your very own Bulbasaur figure with POP! Vinyl Pokémon. This collectible 10cm Bulbasaur brings the world of Pokémon to life.",
+        "price": 12.99,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": "",
+        "image": "bulbasaur.png"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002111605",
+        "name": "POP! Vinyl: Miles Morales Classic Suit",
+        "description": "With amazing agility and wall-crawling skills, Marvel's Spider-Man: Miles Morales swings into the world of Pop!",
+        "price": 12.99,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "miles.png"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002260206",
+        "name": "POP! Vinyl: 25cm Pokémon Pikachu",
+        "description": "This super-sized 25cm Pikachu figure is perfect for fans and collectors. Reimagined in Funko Pop! style, this Pikachu figure features the Pokémon’s iconic red cheeks and lightning bolt tail.",
+        "price": 29.99,
+        "category": 2,
+        "rating": 4.3,
+        "image_url": "",
+        "image": "pikachu.png"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002440521",
+        "name": "The Witcher",
+        "description": "Poster from The Witcher 3",
+        "price": 39.99,
+        "category": 3,
+        "rating": 4.4,
+        "image_url": "",
+        "image": "witcher.jpg"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002601115",
+        "name": "Ghost Of Tsushima",
+        "description": "Poster from Ghost Of Tsushima",
+        "price": 39.99,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "",
+        "image": "ghost.jpg"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5002690715",
+        "name": "God of War",
+        "description": "Poster from God of War",
+        "price": 39.99,
+        "category": 3,
+        "rating": 4.7,
+        "image_url": "",
+        "image": "gow.jpg"
+      }
+    }
+  ]
