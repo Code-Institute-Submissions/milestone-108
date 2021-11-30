@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    padding: 150px;
+    padding-top: 150px;
     background: url('/media/hero.png') no-repeat right center fixed;
     background-size: cover;
     background-size: 65%;
@@ -79,8 +79,22 @@ a {
     color: #f7f1e3 !important;
 }
 
+.product-text {
+    color: #151719;
+}
+
 .border-black {
     border: 1px solid black !important;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #f7f1e3;
+    z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
