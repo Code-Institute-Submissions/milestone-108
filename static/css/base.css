@@ -1,14 +1,20 @@
 html {
     height: 100%;
+    
 }
 
 body {
-    background: url('/media/');
+    background: url('/media/hero.png') no-repeat right center fixed;
     background-size: cover;
+    background-size: 75%;
     height: calc(100vh - 164px);
     color: #f7f1e3;
     background-color: #feb00f;
     font-family: 'Lato';
+}
+
+.background {
+    background-color: #feb00f;
 }
 
 .icon {
