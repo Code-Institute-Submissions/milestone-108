@@ -94,7 +94,12 @@ a {
     left: 0;
     position: fixed;
     background: #f7f1e3;
+    background-color: #feb00f;
     z-index: -1;
+}
+
+.product-bg {
+    padding-bottom: 5px; 
 }
 
 /* -------------------------------- Media Queries */
