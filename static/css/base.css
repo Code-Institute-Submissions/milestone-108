@@ -107,6 +107,13 @@ a.category-badge > span.badge:hover {
     color: #fff !important
 }
 
+/* -------------------------------- Bag */
+
+.delivery-banner {
+    background-color: #151719;
+    color: #f7f1e3;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
