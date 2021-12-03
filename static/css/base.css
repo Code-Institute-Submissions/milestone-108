@@ -99,14 +99,33 @@ a {
     top: 0;
     left: 0;
     position: fixed;
-    background: #f7f1e3;
-    background-color: #feb00f;
+    background: #feb00f;
     z-index: -1;
 }
 
 .update-link, .remove-item {
     cursor: pointer;
 }
+
+/* -------------------------------- Toasts 
+
+.message-container {
+    position: fixed;
+    top: 2px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+    background-color: aqua;
+}
+
+.toast-capper {
+    height: 2px;
+}
+*/
+/* --------------------------------  */
 
 .product-bg {
     padding-bottom: 5px; 
