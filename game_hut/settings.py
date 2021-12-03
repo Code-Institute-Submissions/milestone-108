@@ -167,6 +167,11 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+AWS_S3_OBJECT_PARAMETERS = {
+    'Expires': 'Thu, 31 Dec 2099 15:00:00 GMT'
+    'CacheControl': 'max-age=94608000'
+}
+
 if 'USE_AWS' in os.environ:
     AWS_STORAGE_BUCKET_NAME = 'game-hut-milestone'
     AWS_S3_REGION_NAME = 'eu-west-1'
