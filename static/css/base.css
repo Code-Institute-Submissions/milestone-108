@@ -104,6 +104,10 @@ a {
     z-index: -1;
 }
 
+.update-link, .remove-item {
+    cursor: pointer;
+}
+
 .product-bg {
     padding-bottom: 5px; 
 }
